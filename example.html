@@ -1,0 +1,69 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+
+
+
+<div style="background-image: url('bg.jpg'); width: 100%; height: 100%;"> </div>
+<img src="bg.jpg" style="width: 300px; height: auto;">
+<button onclick="dragio.open()">Upload file</button>
+
+
+
+<link rel="stylesheet" href="Dragio.css">
+<script src="Dragio.js"></script>
+<script>
+var dragio = new Dragio({
+    'ID': "x",
+    "URL": "http://localhost:8000/upload",
+    "pasteURL": "http://localhost:8000/paste",
+    "debug": true,
+    
+
+});
+/*
+"callback": function(e, id) {
+        console.log("Dragio#" + id, e);
+    }
+*/
+</script>
+
+<style>
+    /*************************************************/
+    @font-face {
+        font-family: Poppins-Regular;
+        src: url('./fonts/poppins/Poppins-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: Poppins-Medium;
+        src: url('./fonts/poppins/Poppins-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: Poppins-Bold;
+        src: url('./fonts/poppins/Poppins-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: Poppins-SemiBold;
+        src: url('./fonts/poppins/Poppins-SemiBold.ttf');
+    }
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        font-family: Poppins-Regular, sans-serif;
+    }
+
+    .no-overflow {
+        overflow: hidden;
+    }
+
+</style>
