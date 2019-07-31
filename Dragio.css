@@ -15,6 +15,8 @@
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+
+    font-family: 'Poppins';
 }
 
 .dragio__exit {
@@ -68,4 +70,84 @@
     fill: #92b0b3;
     display: block;
     margin-bottom: 40px;
+}
+
+.meter {
+    height: 20px;
+    /* Can be anything */
+    position: relative;
+    background: rgb(53, 50, 50);
+    /*border-radius: 5px;*/
+}
+
+.meter>div {
+    z-index: 10;
+    position: relative;
+}
+
+.meter>span {
+    display: block;
+    height: 100%;
+    font-size: 14px;
+    /*border-radius: 5px;*/
+    background-color: rgb(60, 255, 0);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.05s ease-in-out;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.dragio__file {
+    text-align: center;
+    margin: auto auto;
+}
+
+.dragio__file-icon {
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+}
+
+.dragio__files table {
+    margin: auto auto;
+    padding: 30px;
+}
+
+.dragio__file-name {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.dragio__file-size {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.dragio__file-progress {
+    min-width: 100px;
+    max-width: 300px;
+    width: 200px;
+    padding: 10px;
+    display: block;
+}
+
+.dragio__files {
+    display: none;
+    overflow: auto;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+    position: fixed;
+    background: rgb(29, 26, 26);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+img[src=""] {
+    display: none;
 }
