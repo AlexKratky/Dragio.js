@@ -1,5 +1,5 @@
 # Dragio.js
-> Easy file dialog.
+> JS Class to work with file upload. Custom responsive forms, progress bars, drag 'n' drop function, Ctrl + V paste, image preview, ...
 
 
 **Table of Contents**
