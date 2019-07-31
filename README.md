@@ -17,9 +17,9 @@
 
 [Check out the demo](https://alexkratky.github.io/Dragio.js/example.html) to see it in action (on your mobile or emulate touches on your browser).
 
-<img src="https://imgur.com/V4Ngshu" alt="Dragio.js preview">
+<img src="https://i.imgur.com/V4Ngshu.png" alt="Dragio.js preview">
 
-<img src="https://imgur.com/6elbl1M" alt="Dragio.js preview">
+<img src="https://i.imgur.com/6elbl1M.png" alt="Dragio.js preview">
 
 ## Installation
 Download Dragio.js and Dragio.css from [releases](https://github.com/AlexKratky/Dragio.js/releases), include them in `<head>` by entering following code:
